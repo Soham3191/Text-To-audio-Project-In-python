@@ -1,3 +1,4 @@
+#use .mp3 after your filename (eg:- xyz.mp3)
 from gtts import gTTS
 import os
 print("Enter language in which your text will be")
@@ -8,3 +9,4 @@ print("Enter file name")
 fln=input()
 obj.save(fln)
 os.system(fln)
+
